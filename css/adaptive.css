@@ -102,9 +102,14 @@
     .header__content {
         align-items: end;
     }
+    .first-screen-mob {
+        margin: 50px 0px 0px 0px;
+
+    }
     .header__text {
         margin: 10px 0px 10px 0px;
     }
+
     .info-card-left {
         display: none;
     }
@@ -156,23 +161,16 @@
     .menu__list {
         display: none;
     }
-    .logo {
-        width: 25%;
-    }
     .nav {
+        display: flex;
         justify-content: space-between;
+        padding: 30px 0px;
     }
     .header__content{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .tel__number {
-        font-size: 16px;
-    }
-    .tel__icon {
-        max-width: 24px;
-        max-height: 24px;
-    }
-
     .first-screen-mob {
         display: inline;
         margin: 0 auto;
@@ -188,8 +186,49 @@
     .header__button {
         margin: 0 auto;
     }
-    .header__img {
-        display: block;
-        margin: 0 auto;
+    .logo {
+        min-width: 50%;
+    }
+    .tel__number {
+        display: none;
+
+    }
+    .menu__tel {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tel__icon {
+        min-width: 50px;
+        min-height: 50px;
+    }
+}
+
+@media (max-width: 510px) {
+    
+    .menu__tel {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tel__icon {
+        min-width: 35px;
+        min-height: 35px;
+    }
+}
+
+@media (max-width: 330px) {
+    
+    .menu__tel {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tel__icon {
+        min-width: 25px;
+        min-height: 25px;
     }
 }
