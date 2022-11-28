@@ -84,6 +84,9 @@
         max-height: 18px;
         margin: 0px 10px 0px 0px;
     }
+    .contacts-text {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -92,19 +95,28 @@
         padding: 0px 15px;
     }
     .title {
-        font-size: 22px;
+        font-size: 30px;
         line-height: 1;
     }
     .text {
-        font-size: 14px;
+        font-size: 20px;
         line-height: 1;
     }
     .header__content {
         align-items: end;
     }
-    .header__text {
-        margin: 10px 0px 10px 0px;
+    .first-screen-mob {
+        margin: 50px 0px 0px 0px;
+
     }
+    .header__title {
+        margin: 40px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .header__text {
+        margin: 20px 0px 20px 0px;
+    }
+
     .info-card-left {
         display: none;
     }
@@ -128,6 +140,10 @@
     .info-card-img {
         max-width: 100%;
         max-height: 100%;
+    }
+    .info-card-title {
+        font-size: 24px;
+        margin: 30px 0px 20px 0px;
     }
     .info-card-text {
         font-size: 14px;
@@ -156,23 +172,16 @@
     .menu__list {
         display: none;
     }
-    .logo {
-        width: 25%;
-    }
     .nav {
+        display: flex;
         justify-content: space-between;
+        padding: 10px 0px 0px 0px;
     }
     .header__content{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .tel__number {
-        font-size: 16px;
-    }
-    .tel__icon {
-        max-width: 24px;
-        max-height: 24px;
-    }
-
     .first-screen-mob {
         display: inline;
         margin: 0 auto;
@@ -188,8 +197,76 @@
     .header__button {
         margin: 0 auto;
     }
+    .logo {
+        min-width: 50%;
+    }
+    .tel__number {
+        display: none;
+
+    }
+    .menu__tel {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tel__icon {
+        min-width: 50px;
+        min-height: 50px;
+    }
     .header__img {
+        margin: 20px 0px 0px 0px;
+    }
+    .contacts_title {
+        margin: 0px 0px 50px 0px;
+    }
+    .cont-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+   .contacts__tel, .contacts__social, .contacts__address {
+    display: block;
+    margin: 0 auto;
+   }
+    .contacts__content {
         display: block;
+        margin: 30px 0px 0px 0px;
+        max-width: 50%;
         margin: 0 auto;
+        text-align: center;
+    }
+    .soc-card {
+        display: block;
+    }
+    .address {
+        display: block;
+    }
+}
+
+@media (max-width: 510px) {
+    
+    .menu__tel {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tel__icon {
+        min-width: 35px;
+        min-height: 35px;
+    }
+}
+
+@media (max-width: 330px) {
+    
+    .menu__tel {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tel__icon {
+        min-width: 25px;
+        min-height: 25px;
     }
 }

@@ -103,6 +103,7 @@ body {
     font-weight: 500;
 }
 
+
 .tel__icon {
     width: 24px;
     margin: -2px 15px 0px 0px;
@@ -248,7 +249,15 @@ body {
 }
 
 .contacts__tel {
+    display: flex;
+    align-items: center;
+}
+
+.cont__num {
+    font-weight: 700;
+    color: #191b1a;
     font-size: 20px;
+
 }
 
 .google-map {
