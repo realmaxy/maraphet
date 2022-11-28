@@ -92,11 +92,11 @@
         padding: 0px 15px;
     }
     .title {
-        font-size: 22px;
+        font-size: 30px;
         line-height: 1;
     }
     .text {
-        font-size: 14px;
+        font-size: 20px;
         line-height: 1;
     }
     .header__content {
@@ -106,8 +106,12 @@
         margin: 50px 0px 0px 0px;
 
     }
+    .header__title {
+        margin: 40px 0px 0px 0px;
+        font-size: 30px;
+    }
     .header__text {
-        margin: 10px 0px 10px 0px;
+        margin: 20px 0px 20px 0px;
     }
 
     .info-card-left {
@@ -164,7 +168,7 @@
     .nav {
         display: flex;
         justify-content: space-between;
-        padding: 30px 0px;
+        padding: 10px 0px 0px 0px;
     }
     .header__content{
         display: flex;
@@ -202,6 +206,9 @@
     .tel__icon {
         min-width: 50px;
         min-height: 50px;
+    }
+    .header__img {
+        margin: 20px 0px 0px 0px;
     }
 }
 
