@@ -249,7 +249,15 @@ body {
 }
 
 .contacts__tel {
+    display: flex;
+    align-items: center;
+}
+
+.cont__num {
+    font-weight: 700;
+    color: #191b1a;
     font-size: 20px;
+
 }
 
 .google-map {

@@ -84,6 +84,9 @@
         max-height: 18px;
         margin: 0px 10px 0px 0px;
     }
+    .contacts-text {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -137,6 +140,10 @@
     .info-card-img {
         max-width: 100%;
         max-height: 100%;
+    }
+    .info-card-title {
+        font-size: 24px;
+        margin: 30px 0px 20px 0px;
     }
     .info-card-text {
         font-size: 14px;
@@ -209,6 +216,30 @@
     }
     .header__img {
         margin: 20px 0px 0px 0px;
+    }
+    .contacts_title {
+        margin: 0px 0px 50px 0px;
+    }
+    .cont-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+   .contacts__tel, .contacts__social, .contacts__address {
+    display: block;
+    margin: 0 auto;
+   }
+    .contacts__content {
+        display: block;
+        margin: 30px 0px 0px 0px;
+        max-width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .soc-card {
+        display: block;
+    }
+    .address {
+        display: block;
     }
 }
 
