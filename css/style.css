@@ -1,0 +1,318 @@
+/*fee1c5 - 1 цвет
+d6916e - 2 цвет hover - de7234
+b35e19 - 3 цвет
+58483acb - цвет текста
+
+*/
+
+.first-screen-mob {
+    display: none;
+}
+
+
+/* -------Повторяющиеся элементы---*/
+.title {
+    font-family: 'Comfortaa', coursive;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400 ;
+    color: #58483acb;
+    line-height: 1.5;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6916e;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #de7234;
+    transition: 1.5s;
+}
+
+
+/* ------------------------- */
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    background-color: #fee1c5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    p
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 17%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.menu__item {
+    margin: 0px 50px 0px 0px;
+}
+
+.menu__link {
+    font-family: 'Comfortaa', coursive;
+    font-weight: 700;
+    font-size: 18px;
+    color: #191b1a;
+}
+
+.menu__link:hover, .tel__number:hover {
+    color: #d6916e;
+    transition: 0.3s;
+}
+
+.menu__tel {
+    display: flex;
+}
+
+.tel__number {
+    display: flex;
+    align-items: center;
+    color: #191b1a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tel__icon {
+    width: 24px;
+    margin: -2px 15px 0px 0px;
+}
+
+.first-screen {
+    background: rgb(254,225,197);
+    background: linear-gradient(100deg, rgba(254,225,197,1) 20%, rgba(214,145,110,1) 97%);
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+}
+
+.header__img {
+    margin-bottom: auto;
+}
+
+.header__left {
+    width: 60%;
+}
+
+.header__right {
+    margin: 0px 0px 20px 70px;
+    max-width: 50%;
+}
+
+.header__text {
+    margin: 20px 0px 0px 0px;
+}
+
+.header__button {
+    margin: 30px 0px 0px 0px;
+}
+
+.main {
+    background-color: #fff8f2;
+}
+
+.about__title {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.info-card-left, .info_card-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0px 70px 0px;
+
+}
+
+.info-card-content-left, .info-card-content-right{
+    max-width: 56%;
+}
+
+.info-card-content-left {
+    text-align: right;
+}
+
+.info-card-content-right {
+    text-align-last: left;
+} 
+
+.info-card-button-left {
+    margin-left: auto;
+}
+
+.info-card-img {
+    width: 35%;
+    height: 35%;
+    border-radius: 5%;
+}
+
+.info-card-title {
+    font-size: 32px;
+}
+
+.info-card-text {
+    font-size: 18px;
+    margin: 10px 0px 20px 0px;
+}
+
+
+.product__title {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+    font-size: ;
+}
+
+.product__card {
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #d6916e;
+    margin: 5px;
+    padding: 16px 0px 16px 0px;
+}
+
+
+/* ---------Товарные карточки----------- */
+
+.card__title {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+}
+
+.card__img {
+    display:block;
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 0 auto; 
+}
+
+.card__text {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 16px;
+}
+
+
+/* ---------***********----------- */
+
+.btn-next, .btn-prev {
+    width: 30px;
+}
+
+.contacts {
+    margin: 100px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+.contacts_title {
+    text-align: center;
+    margin: 0px 0px 100px 0px;
+}
+
+.contacts-text {
+    font-size: 20px;
+}
+
+.contacts__tel {
+    font-size: 20px;
+}
+
+.google-map {
+    width: 100%;
+    height: 300px;
+    border-radius: 2%;
+    margin: 50px 0px 0px 0px;
+}
+
+
+.contacts__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-title {
+    font-size: 24px;
+    margin: 0px 0px 15px 0px;
+}
+
+
+.phone-img {
+    width: 30px;
+    margin: 0px 10px 0px 0px;
+}
+
+.soc-card {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.soc-text {
+    font-size: 26px;
+    margin: 0px 0px 0px 5px;
+}
+
+.soc-logo {
+    width: 45px;
+}
+
+.contacts__tel {
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.poiner-img {
+    width: 40px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-text {
+    margin: 0px 0px 0px 5px;
+    font-size: 24px;
+    color: #191b1a;
+}
+
+.footer {
+    background-color: #191b1a;
+    padding: 30px 0px 30px 0px;
+    color: #c5ada1;
+    text-align: center;
+}
