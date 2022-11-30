@@ -157,6 +157,7 @@
         display: none;
     }
     .cont-title {
+        margin: 30px 0px 0px 0px;
         font-size: 16px;
     }
     .footer-text {
@@ -211,6 +212,7 @@
         justify-content: center;
     }
     .tel__icon {
+        margin: -5px 0px 0px 0px;
         min-width: 50px;
         min-height: 50px;
     }
@@ -224,9 +226,14 @@
         font-size: 24px;
         font-weight: 700;
     }
-   .contacts__tel, .contacts__social, .contacts__address {
+
+    .contacts__tel {
     display: block;
-    margin: 0 auto;
+    margin: 20px 0px 0px 0px;
+    }
+    .cont__num, .soc-card, .address {
+    margin: 20px 0px 0px 0px;
+    line-height: 1.2;
    }
     .contacts__content {
         display: block;
@@ -240,6 +247,13 @@
     }
     .address {
         display: block;
+    }
+
+    .btn-next, .btn-prev {
+        display: none;
+    }
+    .itcss__wrapper {
+        max-width: 100%;
     }
 }
 
